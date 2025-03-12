@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Marketing y Publicidad</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Marketing y Publicidad</h1>
+        <p>Análisis de campañas y estrategias</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Casos de éxito</a></li>
+            <li><a href="#">Tendencias</a></li>
+            <li><a href="#">Estrategias</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <article>
+            <h2>Título del artículo</h2>
+            <p>Contenido del artículo con análisis detallado...</p>
+            <div class="share-buttons">
+                <button onclick="share('facebook')">Facebook</button>
+                <button onclick="share('twitter')">Twitter</button>
+                <button onclick="share('linkedin')">LinkedIn</button>
+            </div>
+        </article>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Blog de Marketing y Publicidad. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
